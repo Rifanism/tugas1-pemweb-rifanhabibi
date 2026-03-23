@@ -12,9 +12,8 @@
     width: 450px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid var(--blue);
+    border: 2px solid var(--blue);
     border-radius: 18px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-top: 40px;
 }
 
@@ -22,22 +21,36 @@
     border-radius: 50%;
     display: block;
     margin: 0 auto;
-    border: 2px solid #ccc;
+    border: 3px solid #ccc;
     width: 120px;
     height: 120px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-.card h2, p{
+.card h2, h3, p{
     text-align: center;
     color: var(--text-color);
     font-weight: normal;
     margin-bottom: 10px;
 }
 
+
 .card p {
     margin-top: 10px;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--blue);
+    margin: 15px 0 10px 0;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .links {
@@ -51,12 +64,12 @@
 .links a {
     width: 400px;
     height: 50px;
-    border: 1px solid var(--red);
+    border: 2px solid var(--red);
     border-radius: 10px;
     gap: 10px;
     color: var(--text-color);
     text-decoration: none;
-    transition: background-color 0.5s, color 0.5s;
+    transition: background-color 0.5s, color 0.5s, width 0.3s, height 0.3s;
 }
 
 .links div {
@@ -82,8 +95,12 @@
 .links a:hover {
     background-color: var(--red);
     color: var(--black);
+    width: 420px;
+    height: 55px;
+    box-shadow: 0 0 8px var(--red);
     img {
-        margin-left: 185px;
+        margin-top: 15px;
+        margin-left: 201px;
     }
     span {
         display: none;
