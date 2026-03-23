@@ -58,7 +58,6 @@
 hr {
     border: none;
     border-top: 1px solid var(--blue);
-    margin: 15px 0 10px 0;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -203,6 +202,8 @@ hr {
     border-radius: 12px;
     border: 1px solid rgba(130, 170, 255, 0.1);
     aspect-ratio: 2 / 3;
+    max-height: 50vh;
+    margin: 0 auto;
 }
 
 .poster-wrapper img {
@@ -217,6 +218,8 @@ hr {
 }
 
 .movie-info h4 {
+    display: flex;
+    justify-content: center;
     margin-top: 12px;
     font-size: 0.9rem;
     color: #fff;
@@ -229,7 +232,7 @@ hr {
 }
 
 .music-section {
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 .artist-card {
